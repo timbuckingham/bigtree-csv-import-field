@@ -1,0 +1,44 @@
+{
+    "type": "extension",
+    "id": "com.timbuckingham.csv-import",
+    "version": "1.0",
+    "revision": 1,
+    "compatibility": "4.2+",
+    "title": "CSV Import Field",
+    "description": "Provides the ability for a user to map a CSV to specified fields and have them mapped to a JSON array on submit.",
+    "keywords": [
+        "csv",
+        "import"
+    ],
+    "author": {
+        "name": "Tim Buckingham",
+        "url": "https://www.github.com/timbuckingham",
+        "email": "mr@timbuckingham.com"
+    },
+    "licenses": {
+        "LGPL v3": "http://opensource.org/licenses/LGPL-3.0"
+    },
+    "components": {
+        "module_groups": [],
+        "modules": [],
+        "templates": [],
+        "callouts": [],
+        "settings": [],
+        "feeds": [],
+        "field_types": [
+            {
+                "id": "com.timbuckingham.csv-import*csv-import",
+                "name": "CSV Import",
+                "use_cases": {
+                    "templates": "on",
+                    "modules": "on",
+                    "callouts": "on",
+                    "settings": "on"
+                },
+                "self_draw": null,
+                "extension": "com.timbuckingham.csv-import"
+            }
+        ],
+        "tables": []
+    }
+}
